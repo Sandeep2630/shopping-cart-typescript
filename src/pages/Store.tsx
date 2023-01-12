@@ -3,7 +3,7 @@ import { StoreItem } from '../components/StoreItem'
 import storeItems from '../data/item.json'
 
 
-export function Store (){
+export function Store(){
     return (
         <>
         <Row md={2} xs={1} lg={3} className='g-3'>
