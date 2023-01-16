@@ -21,7 +21,6 @@ export function ShoppingCart ({isOpen}:ShoppingCartProps){
                             return(
                                 <CartItem key={item.id} {...item} />
                             )
-
                         })
                     }
                 </Stack>
